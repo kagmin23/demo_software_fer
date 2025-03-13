@@ -1,5 +1,6 @@
 import { Box, Button, Container, TextField, Typography } from "@mui/material";
 import { useState } from "react";
+import axiosInstance from "../../mockApi/apiInstance";
 
 const SignUp = () => {
     const [name, setName] = useState("");

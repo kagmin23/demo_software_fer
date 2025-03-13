@@ -1,13 +1,11 @@
 import './App.css'
-import SignIn from './components/SignIn'
-import Signup from './components/SignUp'
+import AppRouter from './app/app-router/AppRouter'
 
 function App() {
 
   return (
-    <div className='main-app'>
-      <SignIn />
-      <Signup />
+    <div>
+      <AppRouter />
     </div>
   )
 }
